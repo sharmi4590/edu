@@ -5643,3 +5643,110 @@ section .section-title {
     height: 120px;
     border-radius: 50%;
 }
+
+
+.abhi{
+    text-align: center;
+}
+.news-wrapper[data-v-3b553392] {
+    position: relative;
+    box-shadow: 0 30px 40px rgba(212,217,232,.2);
+    border-radius: 12px;
+    width: 320px;
+    margin-right: 32px;
+    height: 240px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    display: flex
+}
+@media screen and (max-width: 991px) {
+    .news-wrapper[data-v-3b553392] {
+        width:300px;
+        height: 279px;
+        margin-right: 16px
+    }
+}
+
+.news-wrapper .logo-wrapper[data-v-3b553392] {
+    max-width: 155px;
+    margin: auto
+}
+
+.news-wrapper .logo-wrapper img[data-v-3b553392] {
+    height: 76px;
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+.news-wrapper p[data-v-3b553392] {
+    margin: 21px 0 30px;
+    font-family: din;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #3f4b52
+}
+
+@media screen and (max-width: 991px) {
+    .news-wrapper p[data-v-3b553392] {
+        margin:21px 0 40px
+    }
+}
+
+.news-wrapper .btn-wrapper[data-v-3b553392] {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    right: 24px
+}
+
+.news-wrapper .btn-wrapper img[data-v-3b553392] {
+    width: 70px;
+    height: 2px;
+    position:absolute;
+    margin: -20px -17px 0 0
+}
+
+.news-wrapper .read-btn[data-v-3b553392] {
+    color: #f49037;
+    border: none;
+    background: transparent;
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+    margin: 0;
+    line-height: 18px;
+    font-weight: 500; 
+    justify-self:flex-end;
+}         
+                                                                                                                                                                                                      
+.slick-active button {
+    background: -webkit-gradient(linear,left top,left bottom,from(#f49037),to(#f07748));
+    background: linear-gradient(180deg,#f49037,#f07748)
+}
+.main{
+    max-height: 280px;
+    border: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
+}
+.main::-webkit-scrollbar{
+    width:0;
+}
+.main.item{
+    min-width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 2px;
+}
